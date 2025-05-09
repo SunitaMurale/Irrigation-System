@@ -70,4 +70,45 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Sunita Murale
+Staff Management Table - Documentation
+
+Technologies & Libraries Used
+
+1.React.js: JavaScript library for building UI components.
+
+2.react-icons: For using vector icons (used: FaFilter, FaShareAlt, FaCog).
+
+3.CSS (separate file): Custom styles separated for layout and responsiveness.
+
+4.JavaScript (ES6): Modern syntax including map(), arrow functions, and hooks (useState).
+
+App Purpose
+
+The application is an Admin Panel UI to display and manage employee information in a structured data table.
+
+Components Overview
+1. AdminEmployeeTable.jsx
+The main component rendering:
+
+1.A header ("Staff Management System").
+
+2.A filter panel to filter data by status (In work, Pending, On vacation).
+
+3.A styled table displaying employee data dynamically.
+
+2. AdminEmployeeTable.css
+Handles:
+
+1.Page layout (75% sky-blue background, 25% white container).
+
+2.Table styling: borders, hover effects, shadows.
+
+3.Color-coded badges for employee status.
+
+How to Run the Project
+
+# 1. Install dependencies
+npm install
+
+# 2. Start the project
+npm start
